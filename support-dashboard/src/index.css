@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  color: #151A23;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9AA3B1 transparent;
+}
+
+:focus-visible {
+  outline: 2px solid #2F5D62;
+  outline-offset: 2px;
+}
